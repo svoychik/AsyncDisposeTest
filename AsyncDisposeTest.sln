@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDisponseTest", "AsyncDisponseTest\AsyncDisponseTest.csproj", "{BAF7E56E-E6CE-475D-AD7F-255C71CF12A4}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncDisposeTest", "AsyncDisponseTest\AsyncDisposeTest.csproj", "{BAF7E56E-E6CE-475D-AD7F-255C71CF12A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{BAF7E56E-E6CE-475D-AD7F-255C71CF12A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF7E56E-E6CE-475D-AD7F-255C71CF12A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF7E56E-E6CE-475D-AD7F-255C71CF12A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD994FE-822D-4B86-BE72-DEF9D6571FD0}
 	EndGlobalSection
 EndGlobal
