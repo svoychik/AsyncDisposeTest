@@ -9,7 +9,7 @@ namespace AsyncDisponseTest
         {
             using (var client = new Client())
             {
-                return await client.LongRunningGetAsync("run with using");
+                return await client.LongRunningGetAsync("run with await using");
             }
         }
 
@@ -19,7 +19,7 @@ namespace AsyncDisponseTest
             try
             {
                 client = new Client();
-                return await client.LongRunningGetAsync("run with finally");
+                return await client.LongRunningGetAsync("run with await finally");
                 
             }
             catch (Exception e)
