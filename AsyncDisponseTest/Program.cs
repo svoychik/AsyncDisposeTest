@@ -7,8 +7,15 @@ namespace AsyncDisponseTest
     {
         static async Task Main(string[] args)
         {
-            var engine = new Engine();
-            Console.WriteLine(await engine.RunWithFinally());
+            try
+            {
+                var engine = new Engine();
+                Console.WriteLine(await engine.RunWithAwaitAsync());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
             Console.Read();
         }
     }
